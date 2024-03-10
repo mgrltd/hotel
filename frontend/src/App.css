@@ -1,0 +1,19 @@
+/* App.css */
+.grid-container {
+  display: grid;
+  gap: 10px;
+  grid-template-columns: repeat(2, 1fr);
+}
+
+/* Media query for larger screens */
+@media (min-width: 768px) {
+  .grid-container {
+    grid-template-columns: repeat(4, 1fr);
+  }
+}
+
+.grid-item {
+  background-color: red;
+  padding: 10px;
+  text-align: center;
+}
